@@ -8,9 +8,11 @@ Some basic security features/measures:
  * All database querys are parameterized. 
  
  Snapshots:
- ![Login](https://imgur.com/2i0tKWP)
- ![Register](https://imgur.com/YVRTVGi)
- ![Login fault](https://imgur.com/IZHuZGQ)
- ![Input](https://imgur.com/PT3bTs6)
+ 
+ 
+ ![img](https://i.imgur.com/2i0tKWP.png)[/img]
+ ![img](https://imgur.com/YVRTVGi.png)[/img]
+ ![img](https://imgur.com/IZHuZGQ.png)[/img]
+ ![img](https://imgur.com/PT3bTs6.png)[/img]
  
  
