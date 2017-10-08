@@ -6,26 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-
-/* Return Hello */
-router.get('/hello', function(req, res) {
-	return res.json('Hello');
-});
-
 router.post('/getusername', function(req,res,next) {
 	var existed;
 	var pg = req.pg;
 	var fs = req.fs;
 	var username = req.body.username;
-	//var connectionstring = 'postgres://postgres:test@localhost/gologinclient';
-	/*fs.readFile('/home/ludvig/go_projects/src/go-loginclient/nodeserver/routes/connectionstring.txt', 'utf8', function(err,data) {
-		if(err) {
-			console.log(err)
-		}
-		connectionstring = data;
-	console.log("CONNECTION")
-	console.log(connectionstring)*/
-	const connectionstring = 'postgres://postgres:dettaärettlösenord@localhost/gologinclient'
+	const connectionstring = 'X'
 	pg.connect(connectionstring, function(err,client,done) {
 		if(err) {
 			done();
@@ -57,14 +43,8 @@ router.post('/registeruser', function(req,res,next) {
 	var scryptParameters = scrypt.paramsSync(0.1);
 	/* Hashing the password */
 	var kdfResult = scrypt.kdfSync(key, scryptParameters).toString('base64')
-	/*fs.readFile('/home/ludvig/go_projects/src/go-loginclient/nodeserver/routes/connectionstring.txt', 'utf8', function(err,data) {
-		if(err) {
-			console.log(err)
-		}
-		connectionstring = data;
-	console.log(connectionstring)*/
 	
-	const connectionstring = 'postgres://postgres:dettaärettlösenord@localhost/gologinclient'
+	const connectionstring = 'X'
 	pg.connect(connectionstring, function(err,client,done) {
 		if(err) {
 			done();
@@ -90,18 +70,8 @@ router.post('/verifyuser', function(req,res,next){
 	var scrypt = req.scrypt;
 	var pg = req.pg;
 	var fs = req.fs;
-	const data = {username: req.body.username, password: req.body.password}
-	
-	/*fs.readFile('/home/ludvig/go_projects/src/go-loginclient/nodeserver/routes/connectionstring.txt', 'utf8', function(err,data) {
-		if (err) {
-			console.log(err)
-		}
-		console.log(data)
-		var connectionstring = data;
-	console.log("TEST")
-	console.log(connectionstring)*/
-	
-	const connectionstring = 'postgres://postgres:dettaärettlösenord@localhost/gologinclient'
+	const data = {username: req.body.username, password: req.body.password}	
+	const connectionstring = 'X'
 	pg.connect(connectionstring, function(err,client,done) {
 		if(err){
 			done();
