@@ -11,12 +11,17 @@ Some basic security features/measures:
  * The requests to the API server are only HTTPS.
  * All database querys are parameterized. 
  
+ 
  Snapshots:
- 
- 
- ![img](https://i.imgur.com/2i0tKWP.png)[/img]
+ ![img](https://imgur.com/2i0tKWP.png)[/img]
  ![img](https://imgur.com/YVRTVGi.png)[/img]
  ![img](https://imgur.com/IZHuZGQ.png)[/img]
  ![img](https://imgur.com/PT3bTs6.png)[/img]
  
+ 
+ V2 SNAPSHOTS:
+ ![img](https://imgur.com/pZHAiL6.png)[/img]
+ ![img](https://imgur.com/NGpK7fi.png)[/img]
+ ![img](https://imgur.com/ZKhMuto.png)[/img]
+   
  
