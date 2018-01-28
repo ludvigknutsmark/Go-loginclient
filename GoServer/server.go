@@ -20,7 +20,7 @@ import (
 
 //connectionstring
 //this should lay as a password encrypted file on the disk
-var ConnStr = "postgres://postgres:test@localhost/gologinclient"
+var ConnStr = "X"
 
 type Response struct {
 	Data string `json:"data"`
