@@ -13,15 +13,15 @@ Some basic security features/measures:
  
  
  Snapshots:
- ![img](https://imgur.com/2i0tKWP.png)[/img]
- ![img](https://imgur.com/YVRTVGi.png)[/img]
- ![img](https://imgur.com/IZHuZGQ.png)[/img]
- ![img](https://imgur.com/PT3bTs6.png)[/img]
+ ![img](https://imgur.com/2i0tKWP.png)
+ ![img](https://imgur.com/YVRTVGi.png)
+ ![img](https://imgur.com/IZHuZGQ.png)
+ ![img](https://imgur.com/PT3bTs6.png)
  
  
  V2 SNAPSHOTS:
- ![img](https://imgur.com/pZHAiL6.png)[/img]
- ![img](https://imgur.com/NGpK7fi.png)[/img]
- ![img](https://imgur.com/ZKhMuto.png)[/img]
+ ![img](https://imgur.com/pZHAiL6.png)
+ ![img](https://imgur.com/NGpK7fi.png)
+ ![img](https://imgur.com/ZKhMuto.png)
    
  
